@@ -1,0 +1,6 @@
+framework module Pods_SanalEcza {
+  umbrella header "Pods-SanalEcza-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		724C35F9A43C5E88D9C1E0D7 /* Pods_SanalEcza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE58ADBD7D2A6B84C586B181 /* Pods_SanalEcza.framework */; };
+		B313AE542A0A9599004B4554 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE532A0A9599004B4554 /* WelcomeViewController.swift */; };
+		B313AE562A0A9F3C004B4554 /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE552A0A9F3C004B4554 /* MUser.swift */; };
+		B313AE582A0BF82D004B4554 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE572A0BF82D004B4554 /* ProfileTableViewController.swift */; };
+		B313AE5A2A1413ED004B4554 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE592A1413ED004B4554 /* FinishRegistrationViewController.swift */; };
+		B313AE5E2A15038A004B4554 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE5D2A150389004B4554 /* EditProfileViewController.swift */; };
+		B313AE602A151911004B4554 /* PurchasedHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE5F2A151911004B4554 /* PurchasedHistoryTableViewController.swift */; };
+		B313AE642A180965004B4554 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE632A180965004B4554 /* SearchViewController.swift */; };
+		B313AE662A1961E7004B4554 /* AlgoliaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE652A1961E7004B4554 /* AlgoliaService.swift */; };
+		B313AE682A1A396C004B4554 /* StripeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE672A1A396C004B4554 /* StripeClient.swift */; };
+		B313AE6A2A1A7866004B4554 /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AE692A1A7865004B4554 /* CardInfoViewController.swift */; };
+		B3849B962A090B4700942CF6 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3849B952A090B4600942CF6 /* Basket.swift */; };
+		B3849B982A093D0A00942CF6 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3849B972A093D0A00942CF6 /* BasketViewController.swift */; };
+		B3B634AA29DC594600A7A243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634A929DC594600A7A243 /* AppDelegate.swift */; };
+		B3B634AC29DC594600A7A243 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634AB29DC594600A7A243 /* SceneDelegate.swift */; };
+		B3B634B129DC594600A7A243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B634AF29DC594600A7A243 /* Main.storyboard */; };
+		B3B634B329DC594A00A7A243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B634B229DC594A00A7A243 /* Assets.xcassets */; };
+		B3B634B629DC594A00A7A243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B634B429DC594A00A7A243 /* LaunchScreen.storyboard */; };
+		B3B634BE29DD575A00A7A243 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634BD29DD575A00A7A243 /* CategoryCollectionViewController.swift */; };
+		B3B634C029DD590F00A7A243 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634BF29DD590F00A7A243 /* CategoryCollectionViewCell.swift */; };
+		B3B634C429DD61C900A7A243 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3B634C329DD61C900A7A243 /* GoogleService-Info.plist */; };
+		B3B634C629DD670A00A7A243 /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634C529DD670A00A7A243 /* FirebaseCollectionReference.swift */; };
+		B3B634CB29DD69EC00A7A243 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634CA29DD69EC00A7A243 /* Category.swift */; };
+		B3B634CE29DE92E300A7A243 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634CD29DE92E300A7A243 /* Constants.swift */; };
+		B3B634D029EA244100A7A243 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634CF29EA244100A7A243 /* ItemsTableViewController.swift */; };
+		B3B634D229EC974100A7A243 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634D129EC974100A7A243 /* Item.swift */; };
+		B3B634D429ECAA7B00A7A243 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634D329ECAA7B00A7A243 /* AddItemViewController.swift */; };
+		B3B634D629EDB92D00A7A243 /* Richability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634D529EDB92D00A7A243 /* Richability.swift */; };
+		B3B634D829EDC48700A7A243 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634D729EDC48700A7A243 /* Downloader.swift */; };
+		B3B634DA29EE034900A7A243 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634D929EE034800A7A243 /* ItemTableViewCell.swift */; };
+		B3B634DC29EE0B9600A7A243 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634DB29EE0B9600A7A243 /* HelperFunctions.swift */; };
+		B3B634DE29EE111000A7A243 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634DD29EE111000A7A243 /* ItemViewController.swift */; };
+		B3B634E029EF35F900A7A243 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B634DF29EF35F900A7A243 /* ImageCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B313AE532A0A9599004B4554 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B313AE552A0A9F3C004B4554 /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
+		B313AE572A0BF82D004B4554 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		B313AE592A1413ED004B4554 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		B313AE5D2A150389004B4554 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		B313AE5F2A151911004B4554 /* PurchasedHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedHistoryTableViewController.swift; sourceTree = "<group>"; };
+		B313AE612A17E9FA004B4554 /* SanalEcza-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SanalEcza-Bridging-Header.h"; sourceTree = "<group>"; };
+		B313AE632A180965004B4554 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B313AE652A1961E7004B4554 /* AlgoliaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoliaService.swift; sourceTree = "<group>"; };
+		B313AE672A1A396C004B4554 /* StripeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeClient.swift; sourceTree = "<group>"; };
+		B313AE692A1A7865004B4554 /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		B3849B952A090B4600942CF6 /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		B3849B972A093D0A00942CF6 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		B3B634A629DC594600A7A243 /* SanalEcza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanalEcza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B634A929DC594600A7A243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3B634AB29DC594600A7A243 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3B634B029DC594600A7A243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3B634B229DC594A00A7A243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3B634B529DC594A00A7A243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3B634B729DC594A00A7A243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B634BD29DD575A00A7A243 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		B3B634BF29DD590F00A7A243 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3B634C329DD61C900A7A243 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3B634C529DD670A00A7A243 /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		B3B634CA29DD69EC00A7A243 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B3B634CD29DE92E300A7A243 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3B634CF29EA244100A7A243 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		B3B634D129EC974100A7A243 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B3B634D329ECAA7B00A7A243 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		B3B634D529EDB92D00A7A243 /* Richability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Richability.swift; sourceTree = "<group>"; };
+		B3B634D729EDC48700A7A243 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		B3B634D929EE034800A7A243 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		B3B634DB29EE0B9600A7A243 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		B3B634DD29EE111000A7A243 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		B3B634DF29EF35F900A7A243 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C3C223A50DA122123DAB916D /* Pods-SanalEcza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanalEcza.release.xcconfig"; path = "Target Support Files/Pods-SanalEcza/Pods-SanalEcza.release.xcconfig"; sourceTree = "<group>"; };
+		DE58ADBD7D2A6B84C586B181 /* Pods_SanalEcza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SanalEcza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7BDA32820BC84ECA18B4B9 /* Pods-SanalEcza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanalEcza.debug.xcconfig"; path = "Target Support Files/Pods-SanalEcza/Pods-SanalEcza.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3B634A329DC594600A7A243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724C35F9A43C5E88D9C1E0D7 /* Pods_SanalEcza.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA593E446BEDEAB00C3F2D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE7BDA32820BC84ECA18B4B9 /* Pods-SanalEcza.debug.xcconfig */,
+				C3C223A50DA122123DAB916D /* Pods-SanalEcza.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B313AE5C2A141446004B4554 /* Login View */ = {
+			isa = PBXGroup;
+			children = (
+				B313AE532A0A9599004B4554 /* WelcomeViewController.swift */,
+				B313AE592A1413ED004B4554 /* FinishRegistrationViewController.swift */,
+			);
+			path = "Login View";
+			sourceTree = "<group>";
+		};
+		B3B6349D29DC594600A7A243 = {
+			isa = PBXGroup;
+			children = (
+				B3B634A829DC594600A7A243 /* SanalEcza */,
+				B3B634A729DC594600A7A243 /* Products */,
+				8DA593E446BEDEAB00C3F2D6 /* Pods */,
+				B737439E6A23054455DCE844 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B634A729DC594600A7A243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B634A629DC594600A7A243 /* SanalEcza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B634A829DC594600A7A243 /* SanalEcza */ = {
+			isa = PBXGroup;
+			children = (
+				B3B634A929DC594600A7A243 /* AppDelegate.swift */,
+				B3B634AB29DC594600A7A243 /* SceneDelegate.swift */,
+				B3B634CC29DD6A0100A7A243 /* Model */,
+				B3B634C829DD692800A7A243 /* Main Views */,
+				B3B634C929DD697500A7A243 /* Custom Cells */,
+				B3B634C729DD690D00A7A243 /* Helpers */,
+				B3B634AF29DC594600A7A243 /* Main.storyboard */,
+				B3B634B229DC594A00A7A243 /* Assets.xcassets */,
+				B3B634B429DC594A00A7A243 /* LaunchScreen.storyboard */,
+				B3B634C329DD61C900A7A243 /* GoogleService-Info.plist */,
+				B3B634B729DC594A00A7A243 /* Info.plist */,
+			);
+			path = SanalEcza;
+			sourceTree = "<group>";
+		};
+		B3B634C729DD690D00A7A243 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B3B634C529DD670A00A7A243 /* FirebaseCollectionReference.swift */,
+				B3B634CD29DE92E300A7A243 /* Constants.swift */,
+				B3B634D529EDB92D00A7A243 /* Richability.swift */,
+				B3B634D729EDC48700A7A243 /* Downloader.swift */,
+				B3B634DB29EE0B9600A7A243 /* HelperFunctions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B3B634C829DD692800A7A243 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3B634BD29DD575A00A7A243 /* CategoryCollectionViewController.swift */,
+				B3B634CF29EA244100A7A243 /* ItemsTableViewController.swift */,
+				B3B634D329ECAA7B00A7A243 /* AddItemViewController.swift */,
+				B3B634DD29EE111000A7A243 /* ItemViewController.swift */,
+				B3849B972A093D0A00942CF6 /* BasketViewController.swift */,
+				B313AE632A180965004B4554 /* SearchViewController.swift */,
+				B313AE5C2A141446004B4554 /* Login View */,
+				B313AE572A0BF82D004B4554 /* ProfileTableViewController.swift */,
+				B313AE5D2A150389004B4554 /* EditProfileViewController.swift */,
+				B313AE5F2A151911004B4554 /* PurchasedHistoryTableViewController.swift */,
+				B313AE692A1A7865004B4554 /* CardInfoViewController.swift */,
+				B313AE612A17E9FA004B4554 /* SanalEcza-Bridging-Header.h */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		B3B634C929DD697500A7A243 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B3B634BF29DD590F00A7A243 /* CategoryCollectionViewCell.swift */,
+				B3B634D929EE034800A7A243 /* ItemTableViewCell.swift */,
+				B3B634DF29EF35F900A7A243 /* ImageCollectionViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		B3B634CC29DD6A0100A7A243 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3B634CA29DD69EC00A7A243 /* Category.swift */,
+				B313AE552A0A9F3C004B4554 /* MUser.swift */,
+				B3B634D129EC974100A7A243 /* Item.swift */,
+				B3849B952A090B4600942CF6 /* Basket.swift */,
+				B313AE652A1961E7004B4554 /* AlgoliaService.swift */,
+				B313AE672A1A396C004B4554 /* StripeClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B737439E6A23054455DCE844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE58ADBD7D2A6B84C586B181 /* Pods_SanalEcza.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3B634A529DC594600A7A243 /* SanalEcza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B634BA29DC594A00A7A243 /* Build configuration list for PBXNativeTarget "SanalEcza" */;
+			buildPhases = (
+				8376B559D7B13C0A1EB20EE4 /* [CP] Check Pods Manifest.lock */,
+				B3B634A229DC594600A7A243 /* Sources */,
+				B3B634A329DC594600A7A243 /* Frameworks */,
+				B3B634A429DC594600A7A243 /* Resources */,
+				C0B8BAD83F84E7C7B78B1671 /* [CP] Embed Pods Frameworks */,
+				F87BB7C09CDDAEE5B0539D23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanalEcza;
+			productName = SanalEcza;
+			productReference = B3B634A629DC594600A7A243 /* SanalEcza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3B6349E29DC594600A7A243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B3B634A529DC594600A7A243 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = B3B634A129DC594600A7A243 /* Build configuration list for PBXProject "SanalEcza" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3B6349D29DC594600A7A243;
+			productRefGroup = B3B634A729DC594600A7A243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B634A529DC594600A7A243 /* SanalEcza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3B634A429DC594600A7A243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B634B629DC594A00A7A243 /* LaunchScreen.storyboard in Resources */,
+				B3B634C429DD61C900A7A243 /* GoogleService-Info.plist in Resources */,
+				B3B634B329DC594A00A7A243 /* Assets.xcassets in Resources */,
+				B3B634B129DC594600A7A243 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8376B559D7B13C0A1EB20EE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SanalEcza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B8BAD83F84E7C7B78B1671 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SanalEcza/Pods-SanalEcza-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SanalEcza/Pods-SanalEcza-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SanalEcza/Pods-SanalEcza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87BB7C09CDDAEE5B0539D23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SanalEcza/Pods-SanalEcza-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SanalEcza/Pods-SanalEcza-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SanalEcza/Pods-SanalEcza-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3B634A229DC594600A7A243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B313AE6A2A1A7866004B4554 /* CardInfoViewController.swift in Sources */,
+				B313AE582A0BF82D004B4554 /* ProfileTableViewController.swift in Sources */,
+				B3849B982A093D0A00942CF6 /* BasketViewController.swift in Sources */,
+				B3B634C029DD590F00A7A243 /* CategoryCollectionViewCell.swift in Sources */,
+				B3B634D229EC974100A7A243 /* Item.swift in Sources */,
+				B313AE5A2A1413ED004B4554 /* FinishRegistrationViewController.swift in Sources */,
+				B3B634E029EF35F900A7A243 /* ImageCollectionViewCell.swift in Sources */,
+				B3B634DE29EE111000A7A243 /* ItemViewController.swift in Sources */,
+				B313AE662A1961E7004B4554 /* AlgoliaService.swift in Sources */,
+				B3B634D829EDC48700A7A243 /* Downloader.swift in Sources */,
+				B3B634AA29DC594600A7A243 /* AppDelegate.swift in Sources */,
+				B3B634D029EA244100A7A243 /* ItemsTableViewController.swift in Sources */,
+				B313AE5E2A15038A004B4554 /* EditProfileViewController.swift in Sources */,
+				B3B634C629DD670A00A7A243 /* FirebaseCollectionReference.swift in Sources */,
+				B313AE602A151911004B4554 /* PurchasedHistoryTableViewController.swift in Sources */,
+				B3849B962A090B4700942CF6 /* Basket.swift in Sources */,
+				B3B634DA29EE034900A7A243 /* ItemTableViewCell.swift in Sources */,
+				B313AE642A180965004B4554 /* SearchViewController.swift in Sources */,
+				B3B634DC29EE0B9600A7A243 /* HelperFunctions.swift in Sources */,
+				B3B634D429ECAA7B00A7A243 /* AddItemViewController.swift in Sources */,
+				B313AE682A1A396C004B4554 /* StripeClient.swift in Sources */,
+				B3B634AC29DC594600A7A243 /* SceneDelegate.swift in Sources */,
+				B3B634CE29DE92E300A7A243 /* Constants.swift in Sources */,
+				B3B634D629EDB92D00A7A243 /* Richability.swift in Sources */,
+				B3B634BE29DD575A00A7A243 /* CategoryCollectionViewController.swift in Sources */,
+				B3B634CB29DD69EC00A7A243 /* Category.swift in Sources */,
+				B313AE562A0A9F3C004B4554 /* MUser.swift in Sources */,
+				B313AE542A0A9599004B4554 /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3B634AF29DC594600A7A243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B634B029DC594600A7A243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3B634B429DC594A00A7A243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B634B529DC594A00A7A243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3B634B829DC594A00A7A243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3B634B929DC594A00A7A243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3B634BB29DC594A00A7A243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7BDA32820BC84ECA18B4B9 /* Pods-SanalEcza.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8CLMT5KXK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SanalEcza/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erensirin.SanalEcza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SanalEcza/Main Views/SanalEcza-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3B634BC29DC594A00A7A243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C223A50DA122123DAB916D /* Pods-SanalEcza.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8CLMT5KXK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SanalEcza/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erensirin.SanalEcza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SanalEcza/Main Views/SanalEcza-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3B634A129DC594600A7A243 /* Build configuration list for PBXProject "SanalEcza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B634B829DC594A00A7A243 /* Debug */,
+				B3B634B929DC594A00A7A243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B634BA29DC594A00A7A243 /* Build configuration list for PBXNativeTarget "SanalEcza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B634BB29DC594A00A7A243 /* Debug */,
+				B3B634BC29DC594A00A7A243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3B6349E29DC594600A7A243 /* Project object */;
+}

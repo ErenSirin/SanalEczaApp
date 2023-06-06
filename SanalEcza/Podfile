@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SanalEcza' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+
+pod 'FirebaseAnalytics'
+pod 'FirebaseAuth'
+pod 'FirebaseFirestore'
+pod 'FirebaseFunctions'
+pod 'FirebaseMessaging'
+pod 'FirebaseStorage'
+pod 'FirebaseCrashlytics'
+pod 'FirebaseDatabase'
+pod 'FirebaseRemoteConfig'
+
+pod 'FirebaseInAppMessaging'
+pod 'FirebaseDynamicLinks'
+pod 'FirebasePerformance'
+
+
+pod 'FirebaseAppDistribution'
+
+pod 'Firebase/Core'
+pod 'Gallery'
+pod 'InstantSearchClient'
+pod 'EmptyDataSet-Swift'
+pod 'NVActivityIndicatorView/AppExtension'
+pod 'JGProgressHUD'
+pod 'PayPal-iOS-SDK'
+pod 'Stripe'
+pod 'StripePaymentSheet'
+pod 'Alamofire'
+
+  # Pods for SanalEcza
+
+end
